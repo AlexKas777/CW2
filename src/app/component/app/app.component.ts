@@ -10,7 +10,7 @@ import {UserService} from '../../services/user.service';
 export class AppComponent {
   title = 'CW2';
 
-  @Input()
+
   users: User[];
 
   constructor(private userService: UserService) {
