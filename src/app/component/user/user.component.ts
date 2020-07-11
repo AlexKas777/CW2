@@ -10,8 +10,9 @@ import {logger} from 'codelyzer/util/logger';
   styleUrls: ['./user.component.css']
 })
 export class UserComponent implements OnInit {
+
   @Input()
-  user: User[];
+  user: User;
 
   constructor(private userService: UserService) {
   }
